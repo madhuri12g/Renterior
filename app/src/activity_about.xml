@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about">
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="395dp"
+        android:layout_height="213dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/et2"
+        android:gravity="center"
+        android:text="We have created a platform where people can rent quality furniture and interior decor for an affordable price tag for their homes.\nThe USP our application is that user can rent furniture and decor based upon the choice of occasions."
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="395dp"
+        android:layout_height="213dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/et2"
+        android:gravity="center"
+        android:text="So, If you are someone who likes to have lavish occasions, wants to have quality furnitures without breaking the bank or worrying about buying new furniture, please have a look at RENTERIOR."
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="89dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="49dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView30"
+        app:srcCompat="@drawable/phone" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="183dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="64dp"
+        android:gravity="center"
+        android:text="24/7 Helpline!\nCall Us Now At\n+91 8433843437 or\n+91 9987458130"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+</android.support.constraint.ConstraintLayout>
